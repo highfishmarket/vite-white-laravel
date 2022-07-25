@@ -17,4 +17,11 @@
         </div>
     @vite('resources/js/app.js')
     </body>
+    <script>
+        (function (){
+        landing.create_app('#app', {
+            test: 'test'
+        })
+        })();
+    </script>
 </html>
